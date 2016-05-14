@@ -1,0 +1,14 @@
+﻿<Window x:Class="SerosTwitchViewer.ChangeMyChannelNameView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerosTwitchViewer"
+        mc:Ignorable="d"
+        Title="ChangeMyChannelNameView" Height="160" Width="330" WindowStyle="ToolWindow" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF323232">
+        <Button x:Name="button" Content="Change Channelname" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="272" Height="29" Click="button_Click"/>
+        <TextBox x:Name="txtbox_channelname" HorizontalAlignment="Left" Height="23" Margin="10,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272"/>
+
+    </Grid>
+</Window>
